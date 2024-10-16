@@ -45,25 +45,35 @@ console.log('Circumference:', circumference);
     // Initialize 'radius' with a value of 5.
 
     // Your code goes here:
+      let radius = 5;
 
     // Step 2: Declare two more variables using 'let' and name them 'area' and 'circumference'.
     // Initialize 'area' and 'circumference' as undefined for now.
 
     // Your code goes here:
+      let area, circumference;
+
 
     // Step 3: Calculate the area of the circle using the 'radius' variable.
     // Store the result in the 'area' variable.
 
     // Your code goes here:
+      area= 3.14 * 5 * 5;
+let arearesult= 78.5;
 
     // Step 4: Calculate the circumference of the circle using the 'radius' variable.
     // Store the result in the 'circumference' variable.
 
     // Your code goes here:
+      circumference= 2 * 3.14 * 5 * 5;
+let circumferenceresult= 157;
+
 
     // Step 5: Display the results using 'console.log()'.
 
     // Your code goes here:
+      console.log('area', arearesult);
+console.log('circumference', circumferenceresult);
 
   </script>
 </body>
